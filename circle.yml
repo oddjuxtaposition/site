@@ -1,0 +1,9 @@
+deployment:
+  master:
+    branch: master
+    commands:
+      - bundle exec rake mm:deploy
+test:
+  override:
+    - bundle exec rake mm:build
+

@@ -1,0 +1,53 @@
+# preloadable background image
+$$$ = (name)-> document.getElementsByTagName(name)[0]
+
+$$$('body').appendChild do ->
+  image               = document.createElement('img');
+  image.onload        = -> $$$('html').className = 'background-image-loaded'
+  image.style.display = 'none'
+  image.src           = '<%= asset_path("images/backgrounds/blue.jpg")[0..-2] %>'
+  image
+
+
+
+# parallax
+# thank you internet
+# http://stackoverflow.com/questions/1145850/how-to-get-height-of-entire-document-with-javascript
+# http://www.html5rocks.com/en/tutorials/speed/animations/
+
+do($$$)->
+  body = document.body
+  html = document.documentElement
+
+  initialYPosition = null
+  latestKnownScrollY = 0
+  ticking = false
+
+  window.addEventListener 'resize', ->
+    initialYPosition = null
+    window.dispatchEvent(new Event('scroll'));
+
+  window.addEventListener 'scroll', ->
+    initialYPosition ||= parseInt(window.getComputedStyle($$$('body')).getPropertyValue('background-position-y'))
+
+    latestKnownScrollY = window.scrollY
+
+    return if ticking
+
+    requestAnimationFrame ->
+      ticking = false;
+      currentScrollY = latestKnownScrollY;
+
+      # Do not move this out of this function,
+      # we need the actual height at time of scroll
+      documentHeight = Math.max( body.scrollHeight, body.offsetHeight,
+                             html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+      # this should be 0 when we hit the bottom of the page
+      yPosition = initialYPosition * (1 - currentScrollY / (documentHeight - window.innerHeight))
+
+      # set y position with magic CSS
+      $$$('body').style['background-position-y'] = String(Math.round(yPosition)) + '%';
+
+    ticking = true
+  , false

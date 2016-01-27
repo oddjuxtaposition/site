@@ -1,0 +1,42 @@
+@import "bourbon", "variables", "mixins", "fonts";
+
+html {
+  height: 100%;
+}
+
+body, textarea, input, select, option {
+  font: {
+    family: $font-primary-typeface;
+    weight: $font-primary-weight;
+  }
+  letter-spacing: $font-letter-spacing;
+  line-height: $font-line-height;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #f9f9f9 url('/images/header.png') center center no-repeat;
+  border-top: solid $body-top-border-color 12px;
+  color: #FFF;
+  padding-top: 2.45em; // room for the nav, here
+}
+
+a, a:link, a:visited, a:hover, a:active, a:focus {
+  color: inherit;
+  outline: 0;
+  text-decoration: none;
+  transition: background 0.1s ease-in, border 0.1s ease-in, color 0.1s ease-in;
+
+  &:hover, &:active, &:focus {
+    i {
+      opacity: 1;
+    }
+  }
+
+  i {
+    margin: 0.4em;
+    opacity: 0.5;
+    transition: opacity 0.1s ease-in;
+  }
+}
