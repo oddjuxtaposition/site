@@ -35,6 +35,64 @@
     = stylesheet_link_tag 'application'
 
   %body{class: body_classes}
-    = yield
+    %header
+      %a(href='/') an odd juxtaposition
+    %nav
+      %a(href='/about/') About
+      %a(href='/artwork/') Artwork
+      %a(href='/photography/') Photography
+      %a(href='/store/') Store
+      %a(href='/categories/') Categories
+
+    %aside
+      %p
+        A friend of mine said to me several years ago
+        %strong 
+          &#8221;You&#8217;re a really odd juxtaposition of modern 
+          city-girl-artist, and old fashioned domestic goddess.&#8212;
+        This comment rang true with me somewhat then, but it absolutely 
+        nails my life now.
+    
+      %p
+        Every time I&#8217;ve blogged in the past it&#8217;s been with
+        some pretense, some holding back, and some 
+        &#8216;keeping up appearances.&#8217; But now, this is me: the good,
+        the bad, and the unusual.
+
+      %p
+        So hi, I&#8217;m Lindsey. I&#8217;m wildly in love with my Mad Scientist
+        husband, and my Wild Tornado munchkin. I&#8217;m sarcastic, genuine,
+        and sometimes I slip a curseword. My life is an adventure 
+        of contradictions.
+
+      %p
+        I&#8217;m an artist, and super insecure about it. Working on that.
+        I&#8217;m an unconventional Christian, which I&#8217;ll ramble about 
+        occasionally. I#8217;m weirdly fascinated by Meyers-Briggs 
+        (I&#8217;m an INFJ, if you were wondering.) 
+
+      %p
+        I like real whole foods, and really good bourbon. I like regency era
+        romance novels and giant textbooks about biomechanics. I&#8217;m an 
+        amateur barista and mixologist, and I#8217;m working towards my 
+        certification to be a Restorative Exercise coach. (For admittedly nerdy,
+        selfish purposes.)
+
+      %p 
+        So, brew a coffee&mdash;I&#8217;m probably joining you&#8217;and
+        dive in if you dare. I&#8217;m an acquired taste. (Really, ask my mom)
+        You&#8217;ve been warned.
+
+      = image_tag '/images/aside.jpg'
+      
+      %h2 Categories
+
+      %ul
+        - blog.articles.group_by(&:category).keys.each do |category|
+          %li
+            %a{ href: category_path(category) }= category
+        
+
+    #content= yield
     = javascript_include_tag 'application'
 

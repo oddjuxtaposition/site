@@ -46,6 +46,14 @@ end
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
 
+require 'middleman-thumbnailer'
+activate :thumbnailer,
+  dimensions: {
+    small: '200x',
+    large: '1000x'  },
+  include_data_thumbnails: true,
+  namespace_directory: %w(artwork photography)
+
 activate :blog do |blog|
   blog.custom_collections = {
     category: {

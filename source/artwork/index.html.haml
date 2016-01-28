@@ -1,0 +1,3 @@
+- Dir['source/images/artwork/*.jpg'].map { |f| f.gsub('source', '') }.each do |file|
+  %a{ href: thumbnail_url(file, :large) }= thumbnail file, :small
+
