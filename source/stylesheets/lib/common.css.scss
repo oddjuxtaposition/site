@@ -42,7 +42,8 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
 }
 
 header {
-  background: url('/images/header.png') 96.5% center no-repeat;
+  background: url('/images/header.png') 90.3% center no-repeat;
+  background-size: 370px auto;
   height: 8em;
   margin: auto;
   text-indent: -10000px;
@@ -95,8 +96,15 @@ nav {
 #content {
   left: 50%;
   margin-left: -30em;
+  padding-bottom: 5em;
   position: relative;
   width: 40em;
+  position: relative;
+
+  img {
+    height: auto;
+    width: 100%;
+  }
 }
 
 h1 {
@@ -108,9 +116,31 @@ h1 {
   }
   margin-top: 1em;
   text-align: center;
+
+  & + h1 { display: none; }
+
+  time {
+    color: $color-primary;
+    display: block;
+    font: {
+      family: $font-primary-typeface;
+      size: 0.5em;
+      weight: $font-primary-weight;
+    }
+    margin-top: 1.4em;
+  }
 }
 
 article {
   border-bottom: solid #222 1px;
+  padding-bottom: 1.5em;
+
+  p:last-of-type {
+    a:link, a:visited {
+      color: darken($color-primary, 5%);
+      display: block;
+      text-align: center;
+    }
+  }
 }
 

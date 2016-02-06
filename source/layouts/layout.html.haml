@@ -38,11 +38,10 @@
     %header
       %a(href='/') an odd juxtaposition
     %nav
-      %a(href='/about/') About
-      %a(href='/artwork/') Artwork
-      %a(href='/photography/') Photography
-      %a(href='/store/') Store
-      %a(href='/categories/') Categories
+      /%a(href='/about/') About
+      /%a(href='/artwork/') Artwork
+      /%a(href='/photography/') Photography
+      /%a(href='/store/') Store
 
     %aside
       %p
@@ -88,9 +87,9 @@
       %h2 Categories
 
       %ul
-        - blog.articles.group_by(&:category).keys.each do |category|
+        - blog.articles.group_by(&:tags).keys.flatten.each do |tag|
           %li
-            %a{ href: category_path(category) }= category
+            %a{ href: tag_path(tag) }= tag.titleize
         
 
     #content= yield

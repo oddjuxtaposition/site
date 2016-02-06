@@ -1,6 +1,2 @@
+<%= 
 
-%ul
-  - blog.articles.group_by(&:category).keys.each do |category|
-    %li
-      %a{ href: category_path(category) }= category
-  

@@ -1,3 +1,5 @@
+require "active_support/core_ext/integer/inflections"
+
 ###
 # Compass
 ###
@@ -55,16 +57,13 @@ activate :thumbnailer,
   namespace_directory: %w(artwork photography)
 
 activate :blog do |blog|
-  blog.custom_collections = {
-    category: {
-          link: '/categories/{category}/index.html',
-      template: '/category.html'  } }
-
-  blog.page_link = 'p{num}'
-  blog.per_page  = 3
-  blog.paginate  = true
-  blog.permalink = '{title}/'
-  blog.sources   = 'posts/{title}.html'
+  blog.page_link    = 'p{num}'
+  blog.per_page     = 3
+  blog.paginate     = true
+  blog.permalink    = '{title}.html'
+  blog.sources      = 'posts/{title}.html'
+  blog.taglink      = '/categories/{tag}/'
+  blog.tag_template = 'categories.html'
 end
 
 # non-.html URLs
