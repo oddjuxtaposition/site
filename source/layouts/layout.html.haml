@@ -94,4 +94,8 @@
 
     #content= yield
     = javascript_include_tag 'application'
-
+    - if build?
+      :javascript
+        rasterize = {};
+        rasterize.api_key = "bbe8544e210b8d133b348cd5e12096ae1e8e898a";
+      %script(async src="https://static.rasterize.io/rasterize.js")
