@@ -62,7 +62,7 @@ activate :blog do |blog|
   blog.paginate     = true
   blog.permalink    = '{title}.html'
   blog.sources      = 'posts/{title}.html'
-  blog.taglink      = '/categories/{tag}/'
+  blog.taglink      = '/{tag}'
   blog.tag_template = 'tag.html'
 end
 
