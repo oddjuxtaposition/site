@@ -1,0 +1,16 @@
+<h1 class='tag'><%= tagname %></h1>
+
+<% Array(articles)[0...3].each do |article| %>
+  <article>
+    <h1>
+      <a href="<%= article.url %>"><%= article.title %></a>
+      <time><%= article.date.strftime("%B #{article.date.day.ordinalize}, %Y") %></time>
+    </h1>
+
+ 
+  
+    <%= article.summary %>
+    <a href='<%= article.url %>'>...read more.</a>
+  </article>
+<% end %>
+

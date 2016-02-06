@@ -63,7 +63,7 @@ activate :blog do |blog|
   blog.permalink    = '{title}.html'
   blog.sources      = 'posts/{title}.html'
   blog.taglink      = '/categories/{tag}/'
-  blog.tag_template = 'categories.html'
+  blog.tag_template = 'tag.html'
 end
 
 # non-.html URLs
