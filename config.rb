@@ -123,6 +123,6 @@ activate :cloudfront do |cloudfront|
   cloudfront.access_key_id     = ENV['AWS_ACCESS_KEY_ID']
   cloudfront.secret_access_key = ENV['AWS_SECRET_ACCESS_KEY']
   cloudfront.distribution_id   = ENV['AWS_CLOUDFRONT_SITE_ID']
-# cloudfront.filter            = /^.(jpg|png|css|js)
+  cloudfront.filter            = /^.(jpg|png|css|js)
 end
 
