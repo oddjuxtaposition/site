@@ -6,7 +6,7 @@ tags: parenting, cocktail recipes
 
 # The INFJ
 
-![photo of the mess](/posts/the-infj/the-INFJ-header.jpg)
+![wild tornado](/posts/the-infj/the-INFJ-header.jpg)
 
 It's funny, I've been thinking *I miss blogging* for months, but now that I have this beautiful shiny new blog I'm paralyzed by the sheer amount of conversations and topics I've accrued.  There's so much I want to say and share. I'm excited to talk about mindfulness, flow, good cocktails, wholesome food, bad art, genuine conversation, movement nutrients, parenting, spirituality, organization, and most likely whatever else pops into my head. 
 
