@@ -12,6 +12,8 @@ It's funny, I've been thinking *I miss blogging* for months, but now that I have
 
 Don't get me wrong, I'm sure as hell not here to be an authority on anything.  Maybe if I share my techniques on how to steam canned coconut milk, or how we build an indoor obstacle course basically *every day* for my wild tornado daughter it will make one person’s day a little better.  (Or it will entertain my Grandma.) 
 
+READMORE
+
 Or maybe if I share that several days this week I woke up and wished I could have a break from being a parent for the day it will make one person feel less alone. I would like that. I'm here to be genuine.  I'm here to share this sort of unconventional life-journey I'm on that makes my crunchy friends think I'm endearingly pretentious, my mainstream friends think I’m a dirty hippie, and my family say "she's an acquired taste."  I want to share it in a genuine, honest way.   
 
 So hi, internet friend.  I had a really shit week.  I woke up every morning at 4:30-5AM to my child yelling “Mammmmaaamaaaaa.”  I had high hopes that once I actually got out of bed I would **want** to spend my entire day cleaning up after my destruction machine.  
