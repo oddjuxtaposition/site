@@ -31,3 +31,22 @@ aside {
   }
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  aside {
+    background: darken(#f9f9f9, 7%); 
+    border: none;
+    left: auto;
+    margin: 0 0 0 1%;
+    order: 5;
+    padding: 1em 3em 3em;
+    position: relative;
+    top: auto;
+    width: auto;
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+}
+

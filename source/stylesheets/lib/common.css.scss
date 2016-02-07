@@ -19,7 +19,9 @@ body {
   background: #f9f9f9;
   border-top: solid $body-top-border-color 12px;
   color: #444;
+  overflow: visible;
   padding-top: 2.45em; // room for the nav, here
+  width: 100%;
 }
 
 a, a:link, a:visited, a:hover, a:active, a:focus {
@@ -145,6 +147,32 @@ article {
       display: block;
       text-align: center;
     }
+  }
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  header, nav {
+    padding: 0;
+    width: 100%;
+  }
+
+  header {
+    background-position: top center;
+    background-size: 90%;
+    height: 5.25em;
+  }
+
+  #content {
+    left: auto;
+    margin: 0;
+    padding: 3em;
   }
 }
 
