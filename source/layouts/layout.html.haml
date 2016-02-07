@@ -87,7 +87,7 @@
       %h2 Categories
 
       %ul
-        - blog.articles.group_by(&:tags).keys.flatten.each do |tag|
+        - blog.articles.group_by(&:tags).keys.flatten.uniq.sort.each do |tag|
           %li
             %a{ href: tag_path(tag) }= tag.titleize
         
