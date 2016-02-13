@@ -10,7 +10,7 @@ tags: parenting, personal anecdotes
 
 If you were to ask me “how old is Clementine” my answer for the past several weeks and for the next nine or ten months will be “a year.”   I know, I’m in the minority.   Parents love to say “fifty-seven weeks” or “fourteen-and-a-half months.”  Recently, I even heard someone say that their child was “forty-three months” old. I stood there, baffled, trying to calculate in my head on 3 hours sleep and half a cappuccino how many twelves fit into forty-three.
 
-[READMORE]
+READMORE
 
 Now, this isn’t the first topic that I’m outside-the-norm on, it certainly won’t be the last.  But this is one that has gotten under my skin a lot lately.  Probably just due to season of life. 
 
