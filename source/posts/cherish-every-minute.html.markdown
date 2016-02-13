@@ -5,6 +5,7 @@ tags: parenting, personal anecdotes
 ---
 
 # Cherish Every Damn Minute
+![photo of the mess](/posts/cherish-every-minute/themess.jpg)
 
 About once a week (sometimes more often) someone stops me and says, almost condescendingly, “make sure you’re cherishing every moment with Clementine.”  I half-smile wearily and nod in acknowledgement thinking to myself “I would sure cherish a shower right now” – it’s not that I’m ungrateful for the abundance in my life, or that I don’t adore Clementine. I think that fact is obvious to anyone who follows my instagram account.  
 
