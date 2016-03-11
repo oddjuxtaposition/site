@@ -3,7 +3,7 @@ title: #eatallthethings
 date: 2016/03/10
 tags: culinary, food
 ---
-# #eatallthethings
+# \#eatallthethings
 *My never-ending quest for culinary consciousness*
 
 ![eat all the things](/posts/eatallthethings/eatallthethings.jpg)
