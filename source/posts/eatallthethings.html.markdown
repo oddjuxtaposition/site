@@ -1,5 +1,5 @@
 ---
-title: &#35;eatallthethings
+title: "&#35;eatallthethings"
 date: 2016/03/10
 tags: culinary, food
 ---
