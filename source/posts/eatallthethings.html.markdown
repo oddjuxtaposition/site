@@ -69,7 +69,7 @@ I’m going to go back to my love of culinary arts.  I’m going to keep pluggin
 
 My culinary pursuits lean towards whole foods, and historically more natural food preparation (fermenting, sprouting, soaking, roasting), so don’t mistake this as my declaration to the world that I’m saying “forget it, I’m going to Taco Bell!”  
 
-This is my crying “uncle” to the obsession, the food legalism, the bondage.  It’s my giving myself permission to have wild rice with my salmon, enjoy some honey on my sourdough bread, and have a rye cocktail with my husband over dinner.   
+This is my crying “uncle” to the obsession, the food legalism, the bondage.  It’s my giving myself permission to have wild rice with my salmon, enjoy some honey on my sourdough bread, and have a rye cocktail with my husband over dinner. That said, there are some compromises I just refuse to make, because my body can’t handle them or because I genuinely believe that they are compromises that hurt me or my family.  We don’t eat refined sugar or grains. Ever, at home, and we really try to avoid them if we’re out.  We don’t eat conventional grocery store meat.  I do sometimes buy grass-fed, organic, semi-local meat from Whole Foods, but the few times I’ve compromised on meat, I’ve felt ill afterwards, there was a noticeable difference.   We avoid white potatoes.  Finally, we try to avoid corn and corn based products as a rule - but I do love non-GMO popcorn and cauliflower “popcorn” is not a good enough substitute for me. 
 
 It’s giving myself permission to enjoy my life mindfully, and focus on self-care.  
 
