@@ -15,4 +15,4 @@ gem 'middleman-thumbnailer', git: 'https://github.com/oddjuxtaposition/middleman
 gem 'mime-types'
 gem 'neat'
 gem 'turbolinks', require: false
-
+gem 'rmagick', '2.13.2'
