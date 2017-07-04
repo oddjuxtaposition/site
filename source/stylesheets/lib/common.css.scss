@@ -17,7 +17,7 @@ body, textarea, input, select, option {
 
 body {
   background: #fff;
-  border-top: solid $body-top-border-color 12px;
+  border-top: solid $body-top-border-color 4px;
   color: #444;
   overflow: visible;
   padding-top: 2.45em; // room for the nav, here
@@ -44,9 +44,9 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
 }
 
 header {
-  background: url('/images/header.png') 50% center no-repeat;
-  background-size: 370px auto;
-  height: 8em;
+  background: url('/images/header2.png') 50% center no-repeat;
+  background-size: 250px auto;
+  height: 7em;
   margin: auto;
   text-indent: -10000px;
   width: 70em;
