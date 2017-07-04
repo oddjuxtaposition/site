@@ -20,7 +20,7 @@ body {
   border-top: solid $body-top-border-color 4px;
   color: #444;
   overflow: visible;
-  padding-top: 2.45em; // room for the nav, here
+  padding-top: 1em; 
   width: 100%;
 }
 
@@ -45,11 +45,11 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
 
 header {
   background: url('/images/header2.png') 50% center no-repeat;
-  background-size: 250px auto;
+  background-size: 270px auto;
   height: 7em;
   margin: auto;
   text-indent: -10000px;
-  width: 70em;
+  width: 60em;
 
   a {
     display: block;
@@ -60,11 +60,11 @@ header {
 }
 
 nav {
-  border-top: solid #222 1px;
+  border-top: solid #ebebeb 1px;
   font-family: 'Vollkorn', 'Times', 'Times New Roman';
   font-weight: 400;
   margin: auto;
-  padding: 1em;
+  padding: 1em; // room for the nav, here
   width: 60em;
 
   a {
@@ -116,7 +116,7 @@ h1 {
     size: 2.2em;
     weight: 300;
   }
-  margin-top: 1em;
+  margin-top: 0em;
   text-align: center;
   
   &.tag {
